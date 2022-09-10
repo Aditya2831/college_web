@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("blue.jpg") no-repeat center;
+    background-size: 280%;
+    background-position: -400px 0px;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: rgba(3, 32, 107, 0.374);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    box-shadow: 10px 10px 55px;
+    color: rgb(1, 5, 18);
+}
+
+form#register{
+    margin: 40px;
+}
+
+label{
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 18px;
+    font-style: bold;
+}
+
+input#name{
+    width: 300px;
+    border: 3px solid rgb(111, 103, 116);
+    border-radius: 8px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px;
+}
+
+input#submit{
+    width: 200px;
+    padding: 7px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.669);
+
+
+}
+
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(44, 33, 198, 0.463);
+}
